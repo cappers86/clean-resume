@@ -2,27 +2,17 @@
   "title": "Clear Resume",
   "name": "clean-resume",
   "version": "1.0.0",
-  "description": "Clean Resume template, perfect for developers, designers and other creative professionals who want their skills and experiences displayed in a very clean and effective way. No distractions, just straight forward information ideal for a messy world full of ads we live in.",
+  "description": "Resume",
   "main": "index.js",
   "scripts": {
     "start": "node_modules/.bin/gulp watch"
   },
-  "keywords": [
-    "clean",
-    "resume",
-    "template",
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
-  ],
-  "homepage": "https://filiprastovic.com",
+ 
+  "homepage": "https://colintoft.dev",
   "bugs": {
-    "email": "filiporastovic@gmail.com"
+    "email": "toft816@gmail.com"
   },
-  "author": "Clarity Enhanced",
+  "author": "Colin Toft",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.9.0",
