@@ -21,8 +21,36 @@
 
 	<!-- Theme CSS - Includes Bootstrap And My Custom CSS -->
 	<link href="css/root.min.css" rel="stylesheet">
+
+	
 </head>
 <body>
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+	FB.init({
+	  xfbml            : true,
+	  version          : 'v6.0'
+	});
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="315692821802020">
+</div>
+
+
 	<section class="wrapper">
 		<div class="container">
 			<div class="row">
@@ -39,9 +67,9 @@
 								<li><a class="font-weight-bold text-white" href="#contact"><i class="far fa-envelope"></i>Contact</a></li>
 							</ul>
 							<ul class="list-unstyled list-inline mt-3 text-center">
-								<li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-github-alt"></i></a></li>
+								<li class="list-inline-item"><a class="text-white" href="https://bit.ly/2HZwvL4"><i class="fab fa-github-alt"></i></a></li>
 								<li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-medium-m"></i></a></li>
-								<li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-linkedin-in"></i></a></li>
+								<li class="list-inline-item"><a class="text-white" href="https://bit.ly/2Tk5bMK"><i class="fab fa-linkedin-in"></i></a></li>
 								<li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li>
 								
 							</ul>
@@ -131,10 +159,10 @@
 						<div class="timeline">
 							<div class="job row">
 								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
-									<i class="far fa-calendar-alt mr-2"></i>02/14 – 07/15
+									<i class="far fa-calendar-alt mr-2"></i>10/18 – 10/20
 								</div>  
 								<div class="col-12 col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Web Developer - BeerLove Digital Agency</h6>
+									<h6 class="font-weight-bold">Web Developer - Simple Flow</h6>
 									<h6 class="blue">WordPress, HTML, SCSS, gulp.js, JavaScript, jQuery, React.js</h6>
 									<p>Build WordPress themes utilizing Elementor page builder and Gulp.js in order to implement designs from Figma into a working Elementor 
 										website with great backend UX. Writing maintainable and scaleable SCSS, handling all interactions using jQuery.
@@ -143,20 +171,20 @@
 							</div>
 							<div class="job row">
 								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
-									<i class="far fa-calendar-alt mr-2"></i>02/12 – 07/13</div>  
+									<i class="far fa-calendar-alt mr-2"></i>10/17 – 10/18</div>  
 								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">Web Developer - Designer - LoveBeer Solutions Advertising Agency</h6>
-									<h6 class="blue">Adobe XD, Photoshop, HTML, CSS, JavaScript, SCSS, ExpressionEngine</h6>
-									<p>Working on large scale web sites written in semantic HTML utilizing gulp.js and Bootstrap. Writing modular and scaleable SCSS and integrating it all into ExpressionEngine.
+									<h6 class="font-weight-bold">General Manager - Oliver & Fagins</h6>
+									<h6 class="blue">Hire & train staff, Budgeting, Orders, Menu creation, Stock control</h6>
+									<p>Controlling purchases and inventory by meeting with account manager; negotiating prices and contracts; developing preferred supplier lists; reviewing and evaluating usage reports; analyzing variances; taking corrective actions.
 									</p>
 								</div>
 							</div>
 							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>02/12 – 07/13</div>  
+								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>12/15 – 04/17</div>  
 								<div class="col-md-12 col-lg-9 job-description">
-									<h6 class="font-weight-bold">JavaScript Developer</h6>
-									<h6 class="blue">HTML, SCSS, JavaScript, jQuery</h6>
-									<p>Implementing new features writing modern JavaScript. Fixing bugs, HTML, CSS enhancements, compass.js.
+									<h6 class="font-weight-bold">Business Development Manager - Get Seen Media</h6>
+									<h6 class="blue">Data Analysis, Research, Outbound Marketing, Leadership, Team-work, Adaptability and Flexibility, Verbal and written communication</h6>
+									<p>Contacting potential clients to establish rapport and arrange meetings. Planning and overseeing new marketing initiatives. Researching organizations and individuals to find new opportunities. Increasing the value of current customers while attracting new ones.
 									</p>
 								</div>
 							</div>
