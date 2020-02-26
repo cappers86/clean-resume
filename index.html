@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,64 +23,71 @@
 	<!-- Theme CSS - Includes Bootstrap And My Custom CSS -->
 	<link href="css/root.min.css" rel="stylesheet">
 
-	
+
 </head>
+
 <body>
 
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>
-  window.fbAsyncInit = function() {
-	FB.init({
-	  xfbml            : true,
-	  version          : 'v6.0'
-	});
-  };
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v6.0'
+			});
+		};
 
-  (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution=setup_tool
-  page_id="315692821802020">
-</div>
+	<!-- Your customer chat code -->
+	<div class="fb-customerchat" attribution=setup_tool page_id="315692821802020">
+	</div>
 
 
 	<section class="wrapper">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-sm-12 col-md-5 col-lg-3 text-white sidebar background-blue">
-						<div class="col-md-12 mx-auto">
-							<figure class="profile-image mx-auto">	
-								<img class="img-fluid rounded-circle" src="img/me.png" alt="Profile photo">
-								<figcaption class="text-center"><small class="d-block">Colin</small>Toft</figcaption>
-							</figure>
-							<ul class="list-unstyled main-menu mt-5">
-								<li><a class="font-weight-bold text-white" href="#about-me"><i class="fa fa-user-tie "></i>About Me</a></li>
-								<li><a class="font-weight-bold text-white" href="#experience"><i class="fas fa-book"></i>Experience</a></li>
-								<li><a class="font-weight-bold text-white" href="#portfolio"><i class="fas fa-toolbox"></i>Portfolio</a></li>
-								<li><a class="font-weight-bold text-white" href="#contact"><i class="far fa-envelope"></i>Contact</a></li>
-							</ul>
-							<ul class="list-unstyled list-inline mt-3 text-center">
-								<li class="list-inline-item"><a class="text-white" href="https://bit.ly/2HZwvL4"><i class="fab fa-github-alt"></i></a></li>
-								<li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-medium-m"></i></a></li>
-								<li class="list-inline-item"><a class="text-white" href="https://bit.ly/2Tk5bMK"><i class="fab fa-linkedin-in"></i></a></li>
-								<li class="list-inline-item"><a class="text-white" href="#"><i class="fab fa-twitter"></i></a></li>
-								
-							</ul>
-						</div>
+					<div class="col-md-12 mx-auto">
+						<figure class="profile-image mx-auto">
+							<img class="img-fluid rounded-circle" src="img/me.png" alt="Profile photo">
+							<figcaption class="text-center"><small class="d-block">Colin</small>Toft</figcaption>
+						</figure>
+						<ul class="list-unstyled  main-menu mt-6">
+							<li><a class="font-weight-bold text-white" href="#about-me"><i
+										class="fa fa-user-tie "></i>About Me</a></li>
+							<li><a class="font-weight-bold text-white" href="#experience"><i
+										class="fas fa-book"></i>Experience</a></li>
+							<li><a class="font-weight-bold text-white" href="#portfolio"><i
+										class="fas fa-toolbox"></i>Portfolio</a></li>
+							<li><a class="font-weight-bold text-white" href="#contact"><i
+										class="far fa-envelope"></i>Contact</a></li>
+						</ul>
+						<ul class="list-unstyled list-inline mt-3 text-center">
+							<li class="list-inline-item"><a class="text-white" href="https://bit.ly/2HZwvL4"><i
+										class="fab fa-github-alt"></i></a></li>
+							<li class="list-inline-item"><a class="text-white" href="#"><i
+										class="fab fa-medium-m"></i></a></li>
+							<li class="list-inline-item"><a class="text-white" href="https://bit.ly/2Tk5bMK"><i
+										class="fab fa-linkedin-in"></i></a></li>
+							<li class="list-inline-item"><a class="text-white" href="#"><i
+										class="fab fa-twitter"></i></a></li>
+
+						</ul>
+					</div>
 				</div>
 				<div id="about-me" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content about-me active">
 					<div class="card about-me">
 						<h3 class="sideline font-weight-bold mb-2">About Me</h3>
 						<div class="label title mb-2"><i class="fas fa-code"></i>Web Developer - Designer</div>
-						<p> 
+						<p>
 
 						</p>
 						<p>
@@ -160,31 +168,41 @@
 							<div class="job row">
 								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
 									<i class="far fa-calendar-alt mr-2"></i>10/18 – 10/20
-								</div>  
+								</div>
 								<div class="col-12 col-md-12 col-lg-9 job-description">
 									<h6 class="font-weight-bold">Web Developer - Simple Flow</h6>
 									<h6 class="blue">WordPress, HTML, SCSS, gulp.js, JavaScript, jQuery, React.js</h6>
-									<p>Build WordPress themes utilizing Elementor page builder and Gulp.js in order to implement designs from Figma into a working Elementor 
-										website with great backend UX. Writing maintainable and scaleable SCSS, handling all interactions using jQuery.
+									<p>Build WordPress themes utilizing Elementor page builder and Gulp.js in order to
+										implement designs from Figma into a working Elementor
+										website with great backend UX. Writing maintainable and scaleable SCSS, handling
+										all interactions using jQuery.
 									</p>
 								</div>
 							</div>
 							<div class="job row">
 								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue">
-									<i class="far fa-calendar-alt mr-2"></i>10/17 – 10/18</div>  
+									<i class="far fa-calendar-alt mr-2"></i>10/17 – 10/18</div>
 								<div class="col-md-12 col-lg-9 job-description">
 									<h6 class="font-weight-bold">General Manager - Oliver & Fagins</h6>
-									<h6 class="blue">Hire & train staff, Budgeting, Orders, Menu creation, Stock control</h6>
-									<p>Controlling purchases and inventory by meeting with account manager; negotiating prices and contracts; developing preferred supplier lists; reviewing and evaluating usage reports; analyzing variances; taking corrective actions.
+									<h6 class="blue">Hire & train staff, Budgeting, Orders, Menu creation, Stock control
+									</h6>
+									<p>Controlling purchases and inventory by meeting with account manager; negotiating
+										prices and contracts; developing preferred supplier lists; reviewing and
+										evaluating usage reports; analyzing variances; taking corrective actions.
 									</p>
 								</div>
 							</div>
 							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>12/15 – 04/17</div>  
+								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i
+										class="far fa-calendar-alt mr-2"></i>12/15 – 04/17</div>
 								<div class="col-md-12 col-lg-9 job-description">
 									<h6 class="font-weight-bold">Business Development Manager - Get Seen Media</h6>
-									<h6 class="blue">Data Analysis, Research, Outbound Marketing, Leadership, Team-work, Adaptability and Flexibility, Verbal and written communication</h6>
-									<p>Contacting potential clients to establish rapport and arrange meetings. Planning and overseeing new marketing initiatives. Researching organizations and individuals to find new opportunities. Increasing the value of current customers while attracting new ones.
+									<h6 class="blue">Data Analysis, Research, Outbound Marketing, Leadership, Team-work,
+										Adaptability and Flexibility, Verbal and written communication</h6>
+									<p>Contacting potential clients to establish rapport and arrange meetings. Planning
+										and overseeing new marketing initiatives. Researching organizations and
+										individuals to find new opportunities. Increasing the value of current customers
+										while attracting new ones.
 									</p>
 								</div>
 							</div>
@@ -194,19 +212,24 @@
 						<h3 class="font-weight-bold sideline mb-3">Education</h3>
 						<div class="timeline">
 							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>02/12 – 07/13</div>  
+								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i
+										class="far fa-calendar-alt mr-2"></i>02/12 – 07/13</div>
 								<div class="col-md-12 col-lg-9 job-description">
 									<h6 class="font-weight-bold">Beer Loving University</h6>
 									<h6 class="blue">Computer Science</h6>
-									<p>Department of applied computer science and informatics. I have understanding of data structures, 
-										computer architecture, object oriented programming, design patterns, software engineering 
-										methodologies and web development concepts. I’m also familiar with HCI concepts, machine 
+									<p>Department of applied computer science and informatics. I have understanding of
+										data structures,
+										computer architecture, object oriented programming, design patterns, software
+										engineering
+										methodologies and web development concepts. I’m also familiar with HCI concepts,
+										machine
 										learning and web security.
 									</p>
 								</div>
 							</div>
 							<div class="job row">
-								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i class="far fa-calendar-alt mr-2"></i>02/12 – 07/13</div>  
+								<div class="col-12 col-sm-12 col-md-12 col-lg-3 job-date blue"><i
+										class="far fa-calendar-alt mr-2"></i>02/12 – 07/13</div>
 								<div class="col-md-12 col-lg-9 job-description">
 									<h6 class="font-weight-bold">North Trafford College</h6>
 									<h6 class="blue">Manchester</h6>
@@ -217,9 +240,11 @@
 						</div>
 					</div>
 				</div>
-				<div id="portfolio" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content portfolio text-center">
+				<div id="portfolio" data-simplebar
+					class="col-12 col-sm-12 col-md-7 col-lg-9 content portfolio text-center">
 					<ul class="filter-controls list-unstyled list-inline">
-						<li class="list-inline-item active" data-filter="all"> <i class="fas fa-list-ul"></i> All items </li>
+						<li class="list-inline-item active" data-filter="all"> <i class="fas fa-list-ul"></i> All items
+						</li>
 						<li class="list-inline-item" data-filter="1"> <i class="fas fa-code"></i> Development </li>
 						<!-- <li class="list-inline-item" data-filter="2"> <i class="fas fa-paint-brush"></i> Design </li>
 						<li class="list-inline-item" data-filter="3"> <i class="fas fa-camera"></i> Photography </li> -->
@@ -228,30 +253,42 @@
 					<div class="row filter-container mt-3">
 						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
 							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample1.jpg"><img src="img/portfolio/sample1.jpg" class="img-fluid" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">A caption for the above image.</figcaption>
+								<a class="popup-link" href="img/portfolio/sample1.jpg"><img
+										src="img/portfolio/sample1.jpg" class="img-fluid"
+										alt="A generic square placeholder image with rounded corners in a figure."></a>
+								<figcaption class="font-weight-bold figure-caption">A caption for the above image.
+								</figcaption>
 							</figure>
 						</div>
 						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
 							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample1.jpg"><img src="img/portfolio/sample1.jpg" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">A caption for the above image.</figcaption>
+								<a class="popup-link" href="img/portfolio/sample1.jpg"><img
+										src="img/portfolio/sample1.jpg" class="img-fluid popup-link"
+										alt="A generic square placeholder image with rounded corners in a figure."></a>
+								<figcaption class="font-weight-bold figure-caption">A caption for the above image.
+								</figcaption>
 							</figure>
-							
+
 						</div>
 						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
 							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample1.jpg"><img src="img/portfolio/sample1.jpg" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">A caption for the above image.</figcaption>
+								<a class="popup-link" href="img/portfolio/sample1.jpg"><img
+										src="img/portfolio/sample1.jpg" class="img-fluid popup-link"
+										alt="A generic square placeholder image with rounded corners in a figure."></a>
+								<figcaption class="font-weight-bold figure-caption">A caption for the above image.
+								</figcaption>
 							</figure>
-							
+
 						</div>
 						<div class="col-md-3 filtr-item" data-category="1" data-sort="value">
 							<figure class="figure mb-5">
-								<a class="popup-link" href="img/portfolio/sample1.jpg"><img src="img/portfolio/sample1.jpg" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
-								<figcaption class="font-weight-bold figure-caption">A caption for the above image.</figcaption>
+								<a class="popup-link" href="img/portfolio/sample1.jpg"><img
+										src="img/portfolio/sample1.jpg" class="img-fluid popup-link"
+										alt="A generic square placeholder image with rounded corners in a figure."></a>
+								<figcaption class="font-weight-bold figure-caption">A caption for the above image.
+								</figcaption>
 							</figure>
-							
+
 						</div>
 						<!-- <div class="col-md-3 filtr-item" data-category="2" data-sort="value">
 							<figure class="figure mb-5">
@@ -265,7 +302,7 @@
 								<figcaption class="font-weight-bold figure-caption">A caption for the above image.</figcaption>
 							</figure>
 						</div> -->
-						
+
 						<!-- <div class="col-md-3 filtr-item" data-category="2" data-sort="value">
 							<figure class="figure mb-5">
 								<a class="popup-link" href="img/portfolio/sample2.jpg"><img src="img/portfolio/sample2.jpg" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
@@ -278,7 +315,7 @@
 								<figcaption class="font-weight-bold figure-caption">A caption for the above image.</figcaption>
 							</figure>
 						</div> -->
-						
+
 						<!-- <div class="col-md-3 filtr-item" data-category="2" data-sort="value">
 							<figure class="figure mb-5">
 								<a class="popup-link" href="img/portfolio/sample2.jpg"><img src="img/portfolio/sample2.jpg" class="img-fluid popup-link" alt="A generic square placeholder image with rounded corners in a figure."></a>
@@ -290,34 +327,38 @@
 				<div id="contact" data-simplebar class="col-12 col-sm-12 col-md-7 col-lg-9 content contact">
 					<div class="row mt-5">
 						<div class="col-12 col-sm-12 col-md-12 col-lg-5">
-							<h3 class="font-weight-bold sideline">Contact</h3>							
-							<p>If you would like to get in touch with me feel free to full out this contact form. I usually reply within 2 business days. Thanks!</p>
-					
-							<ul class="list-unstyled">
-								<li class="font-weight-bold"><a href="mailto:Toft816@gmail.com"><i class="far fa-envelope mr-2"></i>Toft816@gmail.com</a></li>
-								<li class="font-weight-bold"><a href="tel:07714839840"><i class="fa fa-mobile-alt mr-2"></i>07714839840</a></li>
+							<h3 class="font-weight-bold sideline">Contact</h3>
+							<p>If you would like to get in touch with me feel free to full out this contact form. I
+								usually reply within 2 business days. Thanks!</p>
 
-								<li class="font-weight-bold"><a href="#"><i class="fas fa-globe mr-2"></i>www.colintoft.dev</a></li>
-								<li class="font-weight-bold"><a href="#"><i class="fas fa-map-marker-alt mr-2"></i>Warrington, UK</a></li>
+							<ul class="list-unstyled">
+								<li class="font-weight-bold"><a href="mailto:Toft816@gmail.com"><i
+											class="far fa-envelope mr-2"></i>Toft816@gmail.com</a></li>
+								<li class="font-weight-bold"><a href="tel:07714839840"><i
+											class="fa fa-mobile-alt mr-2"></i>07714839840</a></li>
+
+								<li class="font-weight-bold"><a href="#"><i
+											class="fas fa-globe mr-2"></i>www.colintoft.dev</a></li>
+								<li class="font-weight-bold"><a href="#"><i
+											class="fas fa-map-marker-alt mr-2"></i>Warrington, UK</a></li>
 							</ul>
 						</div>
 						<div class="col-12 col-sm-12 col-md-12 col-lg-7">
-							<form class="card"
-							action="https://formspree.io/mgeykbpe"
-							method="POST"
-							>
+							<form class="card" action="https://formspree.io/mgeykbpe" method="POST">
 								<div class="form-group">
 									<label for="full-name label">Full name</label>
-									<input type="text" class="form-control" id="full-name" name="full-name" placeholder="Full name">
+									<input type="text" class="form-control" id="full-name" name="full-name"
+										placeholder="Full name">
 								</div>
 								<div class="form-group">
 									<label for="exampleInputEmail1">Email address</label>
-									<input type="email" class="form-control" id="exampleInputEmail1" name="_replyto" aria-describedby="emailHelp" placeholder="Enter email">
+									<input type="email" class="form-control" id="exampleInputEmail1" name="_replyto"
+										aria-describedby="emailHelp" placeholder="Enter email">
 								</div>
 								<div class="form-group">
 									<label for="message">Message:</label>
 									<textarea class="form-control" rows="5" name="message" id="message"></textarea>
-									</div>
+								</div>
 
 								<button type="submit" class="btn btn-primary">Submit</button>
 							</form>
@@ -346,4 +387,5 @@
 	<!-- Custom scripts for this template -->
 	<script src="js/main.min.js"></script>
 </body>
+
 </html>

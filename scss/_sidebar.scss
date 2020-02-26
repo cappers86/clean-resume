@@ -6,7 +6,7 @@
 	}
 
 	figcaption {
-		margin-top: 32px;
+		margin-top: 12px;
 		font-size: 48px;
 		font-weight: 600;
 		line-height: 1;
@@ -19,6 +19,7 @@
 
 	.main-menu {
 		li {
+			margin-top: auto;
 			border-bottom: 1px solid #fff;
 			padding: 10px 0;
 			transition: .3s ease-out;
@@ -28,7 +29,7 @@
 				transition: inherit;
 
 				i {
-					margin: 0 12px 0 18px;
+					margin: 0px 12px 0 18px;
 				}
 			}
 
