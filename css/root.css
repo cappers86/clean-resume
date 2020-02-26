@@ -10678,7 +10678,7 @@ label, .label {
 
 .sidebar .main-menu li {
   border-bottom: 1px solid #fff;
-  padding: 15px 0;
+  padding: 10px 0;
   -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
 }
